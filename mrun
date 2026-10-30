@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in `cat mpd.host`
+do
+  echo ${i}
+  ssh -Y  ${i}  "$1"
+
+done
+

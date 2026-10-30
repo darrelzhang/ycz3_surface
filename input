@@ -1,0 +1,16 @@
+1  1   8  1   ---IDPOT, NPOTS, IPOT, PES_TYPE
+'H' 'C' 'H'  ---Y,C,Z
+300  130    3.0   10.0  ---NZ, NZINT, Zmin, Zmax
+200  6     30   1.2  5.0   ---NR, NVB, NRB, Rmin, Rmax
+1    1   2.0579  2.0579  ---NRU, NVBRU, RUmin, RUmax
+90   5   90.0     125.0   ---NAU, NVBAU, AUmin, AUmax
+52   22   43   25    ---NA1node, NA2node, NB1node, NB2node
+15   31   0.0   ---KBZmax, NB3node, Ca0
+30  0  1  51  0  1  21  12 ---J12max,   JS1, JD1, J1max,   JS2, JD2, J2max,   KB2max
+8.0  2.196   2.0579  109.47  0.0 0.0 0.0 0.0 ---Zinf, R0, RU0, AU0, A10, A20, B10, B20, Ca0
+8.0  0.4 0.10  0   0   1   ---Zinit,   ESKinit, DELTA,   KBZinit, J1init, istat1
+50 0.05 0.9  ---NE0, E1, E2
+5000 10 500  8000 3000  1000 3.2  30000   ---TTOTAL, DT, TPRINT,  T_ABSZ, T_ABSR,  NSTEP0, RFLUX, VCUT
+4.0 0.008 2.0  1.5 0.02 2.0   ---ZABS, CZABS, PZABS,  RABS, CRABS, PRABS
+3   --- nfoldb2
+2.3619696  6.793379 ---X00, Y00

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in `cat mpd.host`  
+do 
+   ssh ${i} 'mv  /local/zhangzhj/ch4_ni/pes/POT0* /local/zhangzhj/ch4_ni/run' 
+#    ssh ${i} 'cd /local/zhangzhj/ch4_ni/pes ; rm scatt_* '
+done
